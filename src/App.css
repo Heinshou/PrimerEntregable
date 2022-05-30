@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Card {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.author {
+  text-align: end;
+  margin-right: 5%;
+
+}
+
+button {
+  border-radius: 30px;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quote {
+  margin-top: 5%;
+}
